@@ -57,14 +57,14 @@ data class Engineer(
 }
 
 /**
- * Read input and make sure it's an integer between 10 and 1000.
+ * Read input and make sure it's an integer between 10 and 500.
  */
 fun readLineAsInt(): Int {
     return try {
         val int = readLine()!!.toInt()
         if (int !in 10..500) throw NumberFormatException() else int
     } catch (e: NumberFormatException) {
-        println("This is not a number between 10 and 1000!")
+        println("This is not a number between 10 and 500!")
         readLineAsInt()
     }
 }
