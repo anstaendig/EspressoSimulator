@@ -48,11 +48,6 @@ atlassian-ide-plugin.xml
 # Ruby plugin and RubyMine
 /.rakeTasks
 
-# Crashlytics plugin (for Android Studio and IntelliJ)
-com_crashlytics_export_strings.xml
-crashlytics.properties
-crashlytics-build.properties
-fabric.properties
 
 ### Intellij+all Patch ###
 # Ignores the whole idea folder
@@ -62,3 +57,6 @@ fabric.properties
 
 
 # End of https://www.gitignore.io/api/intellij+all
+
+/build
+.gradle/
